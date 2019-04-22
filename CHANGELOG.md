@@ -11,14 +11,10 @@ All notable changes to this project will be documented in this file.
 
 ## [0.1.1] - 2019-04-22
 
-### Added
-### Changed
 ### Fixed
 
 - Typo on `index.md` file
 - Wrong rails `Dockerfile` configuration
-
-### Removed
 
 ## [0.1.0] - 2019-04-19
 
