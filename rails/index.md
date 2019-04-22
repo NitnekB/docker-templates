@@ -27,7 +27,7 @@ docker-compose run app rails new . -T --force --no-deps --database=postgresql
 To generate API
 
 ```bash
-docker-compose run web rails new . --api --force --no-deps --database=postgresql
+docker-compose run app rails new . --api --force --no-deps --database=postgresql
 ```
 
 If you want to use `GraphQl`, just install the gem afterall

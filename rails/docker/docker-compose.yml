@@ -2,8 +2,8 @@ version: '3'
 services:
   app:
     build:
-      context: ../../
-      dockerfile: docker/local/Dockerfile
+      context: .
+      dockerfile: Dockerfile
     env_file:
       - app_env
       - app_env.secrets
@@ -26,5 +26,5 @@ volumes:
   app_sources:
     driver_opts:
       type: none
-      device: "${PWD}/../../"
+      device: "${PWD}"
       o: bind
